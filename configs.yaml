@@ -12,9 +12,6 @@ needles_path: "./needles.jsonl"
 en_jsonl: "./EN.jsonl"
 kr_jsonl: "./KR.jsonl"
 
-# 사용할 GPU 개수
-num_gpus: 4
-
 # --- 데이터셋 생성 옵션 ---
 len_start: 1000
 len_end: 33000
@@ -22,5 +19,7 @@ len_step: 2000
 repeats_per_combo: 10
 
 # --- 추론 옵션 ---
+# 사용할 GPU 개수
+num_gpus: 4
 # 생성할 최대 토큰 수
 max_new_tokens: 128
