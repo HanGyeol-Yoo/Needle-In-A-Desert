@@ -2,6 +2,8 @@
 
 ## How To Use
 ```
+git clone https://github.com/HanGyeol-Yoo/Needle-In-A-Desert.git
+cd Needle-In-A-Desert
 uv venv needle_venv
 source needle_venv/bin/activate
 uv pip install numpy matplotlib seaborn datasets transformers torch
